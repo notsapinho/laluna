@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>La Luna | Spa & Beauty</title>
+		<link rel="icon" href="favicon.ico" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+		<style type="text/tailwindcss">
+			@theme {
+				--font-sans: "Roboto", "sans-serif";
+			}
+		</style>
+	</head>
+	<body class="w-full h-screen flex flex-col bg-gray-100 font-sans">
+		<header
+			class="bg-gray-600 shadow-md min-h-20 w-full text-white flex items-center absolute top-0 left-0 z-10 fixed"
+		>
+			<div
+				class="container w-full mx-auto flex items-center h-full justify-between"
+			>
+				<div class="flex items-center space-x-4">
+					<img
+						src="assets/img/logo.png"
+						alt="Logo"
+						class="w-12 h-12"
+					/>
+					<div class="flex flex-col">
+						<h1 class="text-2xl font-bold">La Luna</h1>
+						<h2 class="text-xs">Spa & Beauty</h2>
+					</div>
+				</div>
+
+				<div class="flex items-center justify-center">
+					<a href="#" class="text-white hover:text-gray-300 mx-4">
+						Início
+					</a>
+					<a
+						href="#about"
+						class="text-white hover:text-gray-300 mx-4"
+					>
+						Sobre
+					</a>
+					<a
+						href="#location"
+						class="text-white hover:text-gray-300 mx-4"
+					>
+						Localização
+					</a>
+					<a
+						href="#contact"
+						class="text-white hover:text-gray-300 mx-4"
+					>
+						Contato
+					</a>
+				</div>
+
+				<div></div>
+			</div>
+		</header>
+
+		<section
+			id="hero"
+			class="w-full h-3/4 bg-cover bg-center flex items-center justify-center relative"
+		>
+			<div class="absolute inset-0 bg-black opacity-70"></div>
+			<img
+				src="assets/img/banner.png"
+				alt="Hero Image"
+				class="w-full h-full object-cover"
+			/>
+		</section>
+
+		<section
+			id="about"
+			class="bg-gray-200 py-24 px-4 flex flex-col items-center justify-center"
+		>
+			<div class="container mx-auto">
+				<h2 class="text-3xl font-bold mb-6 text-center">Sobre nós</h2>
+				<p class="text-gray-600 mb-6">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Molestiae eum culpa, recusandae itaque consequatur
+					distinctio fugit modi voluptatem consectetur officia
+					corporis, ea veritatis soluta a. Nesciunt reiciendis odit
+					nobis quis. Ut sed id fuga quaerat ratione veniam adipisci
+					optio aliquam, tenetur ipsam quibusdam similique iste
+					doloremque. Corporis exercitationem earum odit quam maiores,
+					nobis quos dicta quibusdam distinctio dolor nemo tenetur.
+					Voluptatum nesciunt laudantium, rerum non iure magni vero
+					velit illum accusantium quaerat labore quisquam ex.
+					Dignissimos odit, autem doloribus deserunt quibusdam quod
+					magni minima consequatur veritatis soluta culpa nemo
+					perferendis. Quaerat, voluptates magnam praesentium
+					voluptate ipsam ullam. Maxime incidunt perspiciatis error,
+					ullam obcaecati voluptate? Sapiente, inventore quisquam
+					natus similique consequuntur recusandae, dolorum, alias esse
+					veritatis ipsum tenetur repudiandae culpa quae. Id sint
+					facere voluptatum asperiores tempora eligendi harum
+					expedita, in, deleniti doloribus assumenda vero porro
+					aspernatur fuga ipsa magnam quam architecto hic error?
+					Possimus corrupti dolor quibusdam at ipsam fugit? Placeat
+					vero fugit ab quia nostrum, cum consequuntur fugiat harum.
+					Porro rerum error tempora ea saepe voluptatem similique
+					culpa itaque corrupti distinctio veniam ipsam perferendis,
+					perspiciatis dignissimos laboriosam? Itaque, recusandae!
+				</p>
+			</div>
+		</section>
+
+		<section
+			id="services"
+			class="bg-white-100 py-24 px-4 flex flex-col items-center justify-center"
+		>
+			<div class="container mx-auto">
+				<h2 class="text-3xl font-bold mb-6 text-center">Serviços</h2>
+				<div
+					class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+				>
+					<div class="bg-white shadow-lg rounded-lg overflow-hidden">
+						<img
+							src="assets/img/services/eletric_skin_care.jpg"
+							alt="Skin Care Elétrico Alta Tensão"
+							class="w-full h-128 object-cover"
+						/>
+						<div class="p-4 space-y-2">
+							<h3 class="text-xl font-semibold">
+								Alta frequência
+							</h3>
+							<p class="text-gray-600">
+								A alta frequência é um tratamento estético que
+								utiliza uma corrente elétrica de alta frequência
+								para estimular a circulação sanguínea, melhorar
+								a oxigenação da pele e promover a regeneração
+								celular. É frequentemente utilizado para tratar
+								acne, rugas e flacidez da pele. O tratamento é
+								indolor e pode ser realizado em diferentes áreas
+								do corpo, incluindo o rosto e o couro cabeludo.
+							</p>
+						</div>
+					</div>
+					<div
+						class="bg-white shadow-lg rounded-lg overflow-hidden gap-2"
+					>
+						<img
+							src="assets/img/services/nails.jpg"
+							alt="Unhas"
+							class="w-full h-128 object-cover"
+						/>
+						<div class="p-4 space-y-2">
+							<h3 class="text-xl font-semibold">Unhas</h3>
+							<p class="text-gray-600">
+								O tratamento de unhas envolve cuidados estéticos
+								e de saúde para as unhas das mãos e dos pés.
+								Isso pode incluir manicure, pedicure, aplicação
+								de esmalte, remoção de cutículas e tratamentos
+								para fortalecer as unhas. Além disso, existem
+								técnicas como a aplicação de unhas em gel ou
+								acrílicas para embelezar as unhas e prolongar
+								sua durabilidade.
+							</p>
+						</div>
+					</div>
+					<div class="bg-white shadow-lg rounded-lg overflow-hidden">
+						<img
+							src="assets/img/services/hair.jpg"
+							alt="Cabelo"
+							class="w-full h-128 object-cover"
+						/>
+						<div class="p-4 space-y-2">
+							<h3 class="text-xl font-semibold">Cabelo</h3>
+							<p class="text-gray-600">
+								O tratamento de cabelo envolve cuidados
+								estéticos e de saúde para os fios capilares.
+								Isso pode incluir cortes, coloração, hidratação,
+								alisamento, permanente e tratamentos para
+								fortalecer os cabelos. Além disso, existem
+								técnicas como a aplicação de extensões de cabelo
+								ou a realização de procedimentos químicos para
+								embelezar e estilizar os cabelos.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section
+			id="location"
+			class="bg-gray-200 py-24 px-4 flex flex-col items-center justify-center"
+		>
+			<div class="container mx-auto text-center">
+				<h2 class="text-3xl font-bold mb-6">Localização</h2>
+				<p class="text-gray-600 mb-6">
+					Estamos localizados na Rua Coelho Lisboa, 857 - Tatuapé, São
+					Paulo - SP, 03323-040
+				</p>
+				<iframe
+					class="w-full h-128 rounded-lg shadow-md"
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.4617600063334!2d-46.57371982385407!3d-23.5518537612446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5f3e1a810655%3A0xc17b983045736354!2sLa%20Luna%20SPA%20%26%20Beauty!5e0!3m2!1spt-BR!2sbr!4v1746486138352!5m2!1spt-BR!2sbr"
+					style="border: 0"
+					allowfullscreen=""
+					loading="lazy"
+				>
+				</iframe>
+			</div>
+		</section>
+
+		<section
+			id="contact"
+			class="bg-white-100 py-24 px-4 flex flex-col items-center justify-center"
+		>
+			<div class="container mx-auto text-center">
+				<h2 class="text-3xl font-bold mb-6">Entre em contato</h2>
+				<div
+					class="flex justify-center flex-col items-center w-full space-y-2"
+				>
+					<a
+						href="https://wa.me/5511994265817"
+						class="bg-white-100 p-2 rounded-lg w-50 border-gray-800 border text-black justify-between flex items-center space-x-4 transform hover:scale-105 transition duration-300 ease-in-out"
+					>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="24"
+							height="24"
+							fill="currentColor"
+							viewBox="0 0 16 16"
+						>
+							<path
+								d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"
+							/>
+						</svg>
+
+						<span class="text-black mx-2 text-sm"
+							>+55 11 99426-5817</span
+						>
+					</a>
+					<a
+						href="https://www.instagram.com/lalunaspasp/"
+						class="bg-white-100 p-2 rounded-lg w-50 border-gray-800 border text-black justify-between flex items-center space-x-4 transform hover:scale-105 transition duration-300 ease-in-out"
+					>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+						>
+							<rect
+								width="20"
+								height="20"
+								x="2"
+								y="2"
+								rx="5"
+								ry="5"
+							/>
+							<path
+								d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+							/>
+							<line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+						</svg>
+
+						<span class="text-black mx-2 text-sm"
+							>@lalunaspasp</span
+						>
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<footer class="bg-gray-600 text-white py-4">
+			<div class="container mx-auto text-center">
+				<p>
+					&copy; 2025 La Luna Spa & Beauty. Todos os direitos
+					reservados.
+				</p>
+			</div>
+		</footer>
+	</body>
+</html>
