@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Serviços - La Luna Spa & Beauty</title>
+		<link rel="icon" href="favicon.ico" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+		<style type="text/tailwindcss">
+			@theme {
+				--font-sans: "Roboto", "sans-serif";
+			}
+		</style>
+	</head>
+	<body class="w-full h-screen flex flex-col bg-gray-100 font-sans">
+		<header
+			class="bg-gray-600 shadow-md min-h-20 w-full text-white flex items-center absolute top-0 left-0 z-10 fixed"
+		>
+			<div
+				class="container w-full mx-auto flex items-center h-full justify-between"
+			>
+				<div class="flex items-center space-x-4">
+					<img
+						src="assets/img/logo.png"
+						alt="Logo"
+						class="w-12 h-12"
+					/>
+					<div class="flex flex-col">
+						<h1 class="text-2xl font-bold">La Luna</h1>
+						<h2 class="text-xs">Spa & Beauty</h2>
+					</div>
+				</div>
+
+				<div class="flex items-center justify-center">
+					<a
+						href="index.html"
+						class="text-white hover:text-gray-300 mx-4"
+					>
+						Início
+					</a>
+					<a
+						href="servicos.html"
+						class="text-white hover:text-gray-300 mx-4"
+					>
+						Serviços
+					</a>
+					<a
+						href="sobre.html"
+						class="text-white hover:text-gray-300 mx-4"
+					>
+						Sobre
+					</a>
+					<a
+						href="contato.html"
+						class="text-white hover:text-gray-300 mx-4"
+					>
+						Contato
+					</a>
+				</div>
+
+				<div></div>
+			</div>
+		</header>
+
+		<main class="flex flex-col flex-1">
+			<section
+				id="services"
+				class="bg-white-100 py-24 px-4 flex flex-col items-center justify-center"
+			>
+				<div class="container mx-auto my-12">
+					<h2 class="text-3xl font-bold mb-6 text-center">
+						Serviços
+					</h2>
+					<div
+						class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12"
+					>
+						<div
+							class="bg-white shadow-lg rounded-lg overflow-hidden"
+						>
+							<img
+								src="assets/img/services/eletric_skin_care.jpg"
+								alt="Skin Care Elétrico Alta Tensão"
+								class="w-full h-128 object-cover"
+							/>
+							<div class="p-4 space-y-2">
+								<h3 class="text-xl font-semibold">
+									Alta frequência
+								</h3>
+								<p class="text-gray-600">
+									A alta frequência é um tratamento estético
+									que utiliza uma corrente elétrica de alta
+									frequência para estimular a circulação
+									sanguínea, melhorar a oxigenação da pele e
+									promover a regeneração celular. É
+									frequentemente utilizado para tratar acne,
+									rugas e flacidez da pele. O tratamento é
+									indolor e pode ser realizado em diferentes
+									áreas do corpo, incluindo o rosto e o couro
+									cabeludo.
+								</p>
+							</div>
+						</div>
+						<div
+							class="bg-white shadow-lg rounded-lg overflow-hidden gap-2"
+						>
+							<img
+								src="assets/img/services/nails.jpg"
+								alt="Unhas"
+								class="w-full h-128 object-cover"
+							/>
+							<div class="p-4 space-y-2">
+								<h3 class="text-xl font-semibold">Unhas</h3>
+								<p class="text-gray-600">
+									O tratamento de unhas envolve cuidados
+									estéticos e de saúde para as unhas das mãos
+									e dos pés. Isso pode incluir manicure,
+									pedicure, aplicação de esmalte, remoção de
+									cutículas e tratamentos para fortalecer as
+									unhas. Além disso, existem técnicas como a
+									aplicação de unhas em gel ou acrílicas para
+									embelezar as unhas e prolongar sua
+									durabilidade.
+								</p>
+							</div>
+						</div>
+
+						<div
+							class="bg-white shadow-lg rounded-lg overflow-hidden"
+						>
+							<img
+								src="assets/img/services/hair.jpg"
+								alt="Cabelo"
+								class="w-full h-128 object-cover"
+							/>
+							<div class="p-4 space-y-2">
+								<h3 class="text-xl font-semibold">Cabelo</h3>
+								<p class="text-gray-600">
+									O tratamento de cabelo envolve cuidados
+									estéticos e de saúde para os fios capilares.
+									Isso pode incluir cortes, coloração,
+									hidratação, alisamento, permanente e
+									tratamentos para fortalecer os cabelos. Além
+									disso, existem técnicas como a aplicação de
+									extensões de cabelo ou a realização de
+									procedimentos químicos para embelezar e
+									estilizar os cabelos.
+								</p>
+							</div>
+						</div>
+
+						<div
+							class="bg-white shadow-lg rounded-lg overflow-hidden"
+						>
+							<img
+								src="assets/img/services/massagem.jpg"
+								alt="Massagem"
+								class="w-full h-128 object-cover"
+							/>
+							<div class="p-4 space-y-2">
+								<h3 class="text-xl font-semibold">Massagem</h3>
+								<p class="text-gray-600">
+									A massagem é uma técnica terapêutica que
+									utiliza toques e pressões nos músculos e
+									tecidos do corpo para promover relaxamento,
+									aliviar tensões musculares, melhorar a
+									circulação sanguínea e proporcionar
+									bem-estar. Existem vários tipos de massagem,
+									como a sueca, a deep tissue, a shiatsu e a
+									aromaterapia, cada uma com suas próprias
+									técnicas e benefícios.
+								</p>
+							</div>
+						</div>
+
+						<div
+							class="bg-white shadow-lg rounded-lg overflow-hidden"
+						>
+							<img
+								src="assets/img/services/sauna.jpg"
+								alt="Sauna"
+								class="w-full h-128 object-cover"
+							/>
+							<div class="p-4 space-y-2">
+								<h3 class="text-xl font-semibold">Sauna</h3>
+								<p class="text-gray-600">
+									A sauna é um espaço aquecido onde as pessoas
+									podem relaxar e desintoxicar o corpo por
+									meio do suor. Existem diferentes tipos de
+									saunas, como a sauna seca e a sauna úmida
+									(vapor). A sauna proporciona benefícios como
+									relaxamento muscular, melhora da circulação
+									sanguínea e alívio do estresse.
+								</p>
+							</div>
+						</div>
+
+						<div
+							class="bg-white shadow-lg rounded-lg overflow-hidden"
+						>
+							<img
+								src="assets/img/services/drenagem.jpg"
+								alt="Drenagem"
+								class="w-full h-128 object-cover"
+							/>
+							<div class="p-4 space-y-2">
+								<h3 class="text-xl font-semibold">Drenagem</h3>
+								<p class="text-gray-600">
+									A drenagem linfática é uma técnica de
+									massagem que visa estimular o sistema
+									linfático, ajudando a eliminar toxinas e
+									reduzir o inchaço no corpo. É frequentemente
+									utilizada para melhorar a circulação
+									sanguínea, aliviar a retenção de líquidos e
+									promover a sensação de leveza. A drenagem
+									pode ser realizada manualmente ou com o uso
+									de aparelhos específicos.
+								</p>
+							</div>
+						</div>
+
+						<div
+							class="bg-white shadow-lg rounded-lg overflow-hidden"
+						>
+							<img
+								src="assets/img/services/aromaterapia.jpg"
+								alt="Aromaterapia"
+								class="w-full h-128 object-cover"
+							/>
+							<div class="p-4 space-y-2">
+								<h3 class="text-xl font-semibold">
+									Aromaterapia
+								</h3>
+								<p class="text-gray-600">
+									A aromaterapia é uma prática terapêutica que
+									utiliza óleos essenciais extraídos de
+									plantas para promover o bem-estar físico e
+									emocional. Os óleos essenciais podem ser
+									inalados, aplicados na pele ou utilizados em
+									massagens para aliviar o stress, melhorar o
+									sono, aliviar dores e promover relaxamento.
+									A aromaterapia é frequentemente combinada
+									com outras técnicas de bem-estar, como
+									massagens e banhos relaxantes.
+								</p>
+							</div>
+						</div>
+
+						<div
+							class="bg-white shadow-lg rounded-lg overflow-hidden"
+						>
+							<img
+								src="assets/img/services/limpeza_de_pele.jpg"
+								alt="Limpeza de Pele"
+								class="w-full h-128 object-cover"
+							/>
+							<div class="p-4 space-y-2">
+								<h3 class="text-xl font-semibold">
+									Limpeza de Pele
+								</h3>
+								<p class="text-gray-600">
+									A limpeza de pele é um tratamento estético
+									que visa remover impurezas, cravos e células
+									mortas da pele. O procedimento pode incluir
+									esfoliação, extração de cravos, aplicação de
+									máscaras e hidratação. A limpeza de pele é
+									importante para mantê-la saudável, prevenir
+									acne e melhorar a textura da pele. É
+									recomendada para todos os tipos de pele e
+									pode ser realizada em clínicas de estética
+									ou spas.
+								</p>
+							</div>
+						</div>
+
+						<div
+							class="bg-white shadow-lg rounded-lg overflow-hidden"
+						>
+							<img
+								src="assets/img/services/hidratação.jpg"
+								alt="Limpeza de Pele"
+								class="w-full h-128 object-cover"
+							/>
+							<div class="p-4 space-y-2">
+								<h3 class="text-xl font-semibold">
+									Hidratação
+								</h3>
+								<p class="text-gray-600">
+									A limpeza de pele é um tratamento estético
+									que visa remover impurezas, cravos e células
+									mortas da pele. O procedimento pode incluir
+									esfoliação, extração de cravos, aplicação de
+									máscaras e hidratação. A limpeza de pele é
+									importante para mantê-la saudável, prevenir
+									acne e melhorar a textura da pele. É
+									recomendada para todos os tipos de pele e
+									pode ser realizada em clínicas de estética
+									ou spas.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="bg-gray-600 text-white py-4">
+			<div class="container mx-auto text-center">
+				<p>
+					&copy; 2025 La Luna Spa & Beauty. Todos os direitos
+					reservados.
+				</p>
+			</div>
+		</footer>
+	</body>
+</html>

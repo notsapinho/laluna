@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>La Luna | Spa & Beauty</title>
+		<link rel="icon" href="favicon.ico" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+		<style type="text/tailwindcss">
+			@theme {
+				--font-sans: "Roboto", "sans-serif";
+			}
+		</style>
+	</head>
+	<body class="w-full h-screen flex flex-col bg-gray-100 font-sans">
+		<header
+			class="bg-gray-600 shadow-md min-h-20 w-full text-white flex items-center absolute top-0 left-0 z-10 fixed"
+		>
+			<div
+				class="container w-full mx-auto flex items-center h-full justify-between"
+			>
+				<div class="flex items-center space-x-4">
+					<img
+						src="assets/img/logo.png"
+						alt="Logo"
+						class="w-12 h-12"
+					/>
+					<div class="flex flex-col">
+						<h1 class="text-2xl font-bold">La Luna</h1>
+						<h2 class="text-xs">Spa & Beauty</h2>
+					</div>
+				</div>
+
+				<div class="flex items-center justify-center">
+					<a
+						href="index.html"
+						class="text-white hover:text-gray-300 mx-4"
+					>
+						Início
+					</a>
+					<a
+						href="servicos.html"
+						class="text-white hover:text-gray-300 mx-4"
+					>
+						Serviços
+					</a>
+					<a
+						href="sobre.html"
+						class="text-white hover:text-gray-300 mx-4"
+					>
+						Sobre
+					</a>
+					<a
+						href="contato.html"
+						class="text-white hover:text-gray-300 mx-4"
+					>
+						Contato
+					</a>
+				</div>
+
+				<div></div>
+			</div>
+		</header>
+
+		<main class="flex flex-col w-full flex-1">
+			<div
+				class="container mx-auto flex flex-col items-center justify-center h-full"
+			>
+				<h1 class="text-4xl font-bold mb-4">Entre em Contato</h1>
+
+				<form
+					class="w-full max-w-lg bg-white p-8 rounded-lg shadow-md space-y-4"
+				>
+					<div class="flex-flex-col">
+						<label
+							for="name"
+							class="text-gray-700 text-sm font-bold mb-2"
+							>Nome</label
+						>
+						<input
+							type="text"
+							id="name"
+							name="name"
+							required
+							class="shadow border rounded w-full py-2 px-3 text-gray-700"
+						/>
+					</div>
+					<div class="flex-flex-col">
+						<label
+							for="email"
+							class="text-gray-700 text-sm font-bold mb-2"
+							>Email</label
+						>
+						<input
+							type="email"
+							id="email"
+							name="email"
+							required
+							class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700"
+						/>
+					</div>
+					<div class="flex-flex-col">
+						<label
+							for="message"
+							class="text-gray-700 text-sm font-bold mb-2"
+							>Mensagem</label
+						>
+						<textarea
+							id="message"
+							name="message"
+							rows="4"
+							required
+							class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700"
+						></textarea>
+					</div>
+
+					<button
+						type="submit"
+						class="bg-gray-600 hover:bg-gray-500 text-white font-bold py-2 px-4 rounded w-full"
+					>
+						Enviar Mensagem
+					</button>
+				</form>
+			</div>
+		</main>
+
+		<footer class="bg-gray-600 text-white py-4">
+			<div class="container mx-auto text-center">
+				<p>
+					&copy; 2025 La Luna Spa & Beauty. Todos os direitos
+					reservados.
+				</p>
+			</div>
+		</footer>
+	</body>
+</html>

@@ -1,6 +1,8 @@
 ## Integrantes
 
 - Rafael Ali Oliveira Khalil
+- Bruno Rezende
+- Felipe Kenzo
 
 ## Sobre o projeto
 
